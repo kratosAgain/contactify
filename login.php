@@ -1,9 +1,9 @@
 
 
-<? phpinfo(); ?>
+
 
 <?php
-
+	echo " I am here";
     try {
         // open connection to MongoDB server
         $conn = new Mongo('localhost');
